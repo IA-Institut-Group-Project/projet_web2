@@ -1,0 +1,137 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(153, 144, 144);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text-background {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style du formulaire de saisie */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button[type="submit"],
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:focus,
+input[type="submit"]:focus {
+    outline: none;
+}
+
+button[type="submit"] {
+    margin-left: 10px;
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+/* Affichage des informations sans modification */
+.output {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #007bff;
+}
+
+/* Style du lien Retour */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .text-background {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    button[type="submit"],
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 20px;
+    }
+}

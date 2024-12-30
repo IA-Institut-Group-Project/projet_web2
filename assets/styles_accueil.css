@@ -1,0 +1,175 @@
+p {
+    font-family: 'inherit';
+    text-align: center;
+}
+
+body {
+    background-color: rgb(153, 144, 144);
+    margin: 0;
+    /* Supprime les marges par défaut */
+    padding: 0;
+    /* Supprime les espaces par défaut */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+
+.text-background {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Couleur de fond blanc avec une transparence */
+    padding: 20px;
+    /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px;
+    /* Coins arrondis */
+    margin: 20px auto;
+    /* Centrer et espacement autour */
+    max-width: fit-content;
+    /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre légère pour donner de la profondeur */
+}
+
+.marque-background {
+    background-color: rgba(255, 255, 255, 0.245);
+    /* Couleur de fond blanc avec une transparence */
+    padding: 10px;
+    /* Espacement intérieur pour donner de l'air au texte */
+    border-radius: 10px;
+    /* Coins arrondis */
+    margin: 20px auto;
+    /* Centrer et espacement autour */
+    max-width: fit-content;
+    /* Largeur maximale du conteneur */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre légère pour donner de la profondeur */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    background-image: black;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+}
+
+/* Intégration du style que tu as fourni */
+p {
+    font-family: 'inherit';
+    text-align: center;
+}
+
+body {
+    background-color: rgb(153, 144, 144);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+}
+
+.text-background {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.emploi-du-temps {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.emploi-du-temps div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.emploi-du-temps div:last-child {
+    border-bottom: none;
+}
+
+.heure {
+    font-weight: bold;
+    width: 80px;
+    display: inline-block;
+}
+
+.activite {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.pause {
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+.cours {
+    color: #007BFF;
+}
+
+/* Styles pour rendre le contenu plus agréable */
+.output,
+form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button {
+    margin-left: 10px;
+}
